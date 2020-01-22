@@ -85,3 +85,6 @@ class Document:
         for item in unordered_list:
             items.append(Paragraph(item, STYLE_N))
         self.story.append(ListFlowable(items, bulletType='bullet'))
+
+    def debug(self):
+        raise NotImplemented()

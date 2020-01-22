@@ -127,3 +127,7 @@ class MicrosoftDocument(Document):
 
         self.doc.build(self.story)
 
+    def debug(self):
+        with open('%s.json' % self.get_filename(), 'w') as outfile:
+            json.dump(self.job_description.content, outfile, indent=True, sort_keys=True)
+
