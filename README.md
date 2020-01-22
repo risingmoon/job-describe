@@ -1,2 +1,3 @@
-# job-conform
-A library to conform job descriptions into single PDF page
+# job-describe
+
+A library to conform job descriptions into PDF without abuse of open spaces.
